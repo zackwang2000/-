@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrimInsetsView">
+        <attr name="insetForeground" format="reference|color" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="SwipeBackLayout">
+        <attr format="dimension" name="edge_size"/>
+        <attr name="edge_flag">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="all" value="3"/>
+        </attr>
+        <attr format="reference" name="shadow_left"/>
+        <attr format="reference" name="shadow_right"/>
+        <attr format="reference" name="shadow_bottom"/>
+    </declare-styleable>
+    <attr format="reference" name="SwipeBackLayoutStyle"/>
+
+    <declare-styleable name="SwipyRefreshLayout">
+        <attr name="direction">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+            <enum name="both" value="2"/>
+        </attr>
+    </declare-styleable>
+
+
+    <attr format="color|reference" name="themeColor"/>
+    <attr format="color|reference" name="themeAccentColor"/>
+
+    <attr format="color|reference" name="widgetBackground"/>
+    <attr format="color|reference" name="widgetBackgroundDark"/>
+    <attr format="color|reference" name="widgetBackgroundTitle"/>
+
+    <declare-styleable name="DragDropGirdView">
+        <attr name="fixed_type" format="boolean"/>
+        <attr name="anim_duration" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="TagCloudLayout">
+        <attr name="lineSpacing" format="dimension" />
+        <attr name="tagSpacing" format="dimension" />
+        <!-- 是否是固定布局 -->
+        <attr name="isFixed" format="boolean" />
+        <attr name="columnSize" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="FlowLayout">
+        <!-- 标签之间的水平间距 -->
+        <attr name="fl_horizontalChildGap" format="dimension" />
+        <!-- 标签之间的垂直间距 -->
+        <attr name="fl_verticalChildGap" format="dimension" />
+        <!-- 是否平均分配每一行的剩余水平方向的空白区域给该行的标签 -->
+        <attr name="fl_isDistributionWhiteSpacing" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="FabTagLayout">
+        <attr name="tagText" format="string" />
+        <!--<attr name="tagTextSize" format="dimension" />-->
+        <!--<attr name="tagTextColor" format="color" />-->
+    </declare-styleable>
+
+    <attr name="animationMode">
+        <enum name="fade" value="0"></enum>
+        <enum name="Scale" value="1"></enum>
+        <enum name="bounce" value="2"></enum>
+    </attr>
+
+    <attr name="position">
+        <enum name="left_top" value="0"></enum>
+        <enum name="left_bottom" value="1"></enum>
+        <enum name="right_top" value="2"></enum>
+        <enum name="right_bottom" value="3"></enum>
+    </attr>
+
+    <declare-styleable name="FloatingActionButtonPlus">
+        <attr name="animationMode"></attr>
+        <attr name="position"></attr>
+        <attr name="mBackgroundColor" format="color"></attr>
+        <attr name="switchFabIcon" format="reference"></attr>
+        <attr name="switchFabColor" format="color"></attr>
+        <attr name="animationDuration" format="integer"></attr>
+    </declare-styleable>
+
+</resources>

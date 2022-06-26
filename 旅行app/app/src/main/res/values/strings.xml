@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">BreadTravel</string>
+
+
+    <string name="listview_header_hint_normal">下拉刷新</string>
+    <string name="listview_header_hint_release">释放立即刷新</string>
+    <string name="listview_loading">正在加载...</string>
+    <string name="nomore_loading">没有了</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_done">刷新完成</string>
+    <string name="listview_header_last_time">上次更新时间：</string>
+
+
+    <!--footer-->
+    <string name="list_footer_loading">正在加载中…</string>
+    <string name="list_footer_network_error">点击重新加载</string>
+    <string name="list_footer_end">已全部加载完</string>
+
+    <string name="text_just">刚刚</string>
+    <string name="text_seconds_ago">秒前</string>
+    <string name="text_minute_ago">分钟前</string>
+    <string name="text_hour_ago">小时前</string>
+    <string name="text_day_ago">天前</string>
+    <string name="text_month_ago">月前</string>
+    <string name="text_year_ago">年前</string>
+    <string name="header_text">The Header</string>
+
+
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+    <string name="please_login">请登录</string>
+
+
+    <string name="hot_trip">热门游记</string>
+    <string name="bread_order">面包订制</string>
+    <string name="setting">设置</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="exit">确定退出么？</string>
+    <string name="tip">友情提示</string>
+    <string name="day">天</string>
+    <string name="view_count">次游览</string>
+
+
+    <string name="login_success">login success</string>
+    <string name="login">登录</string>
+    <string name="Username">请输入用户名</string>
+    <string name="Password">请输入密码</string>
+    <string name="forgot_your_password">忘记密码 ?</string>
+    <string name="go">登录</string>
+    <string name="repeat_password">确认密码</string>
+    <string name="next">NEXT</string>
+    <string name="register">注册</string>
+
+
+    <string name="register_failed">注册失败</string>
+    <string name="username_has_been_register">该用户名已经注册过,请重新输入用户名</string>
+    <string name="phone_num_is_not_empty">手机号不能为空</string>
+    <string name="phone_num_length_is_error">手机号码长度不对</string>
+    <string name="check_your_phone_format">请检查您的手机号格式是否正确</string>
+    <string name="register_success">注册成功</string>
+
+    <string name="user_name_is_empty">用户名不能为空</string>
+    <string name="pass_word_is_empty">密码不能为空</string>
+    <string name="check_your_password_is_equal">请检查两次输入的密码是否一致?</string>
+
+
+    <string name="notification_content">热爱编程的小白\r\n\r\n
+QQ:1069584784(爱好交友)\r\n\r\n
+CSDN地址：http://blog.csdn.net/wuyinlei\r\n\r\n
+GitHub地址：https://github.com/wuyinlei\r\n\r\n
+欢迎访问和Fork</string>
+    <string name="current_cache">当前缓存:%</string>
+    <string name="setting_gesture_state_off">关闭</string>
+    <string name="clear_tip">提示</string>
+    <string name="clear_success">清理成功</string>
+    <string name="is_already_the_latest_version">已经是最新版本了,无需进行更新</string>
+
+    <string name="edit">编辑</string>
+    <string name="finish">完成</string>
+
+    <string name="is_come_from_hot_trip_tip">搜索目的地、游记、故事集、用户</string>
+    <string name="is_come_from_bread_trip_tip">搜索专题、产品、酒店...</string>
+
+    <string name="hot_trip_inner">国内热门目的地</string>
+    <string name="hot_trip_outer">国外热门目的地</string>
+    <string name="hot_search">热门搜索</string>
+</resources>

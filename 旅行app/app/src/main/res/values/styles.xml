@@ -1,0 +1,96 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="title_style">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="numbers" format="integer"/>
+        <attr name="foreColor" format="color"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="gapWidth" format="float"/>
+    </declare-styleable>
+
+
+    <style name="Card">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">200dp</item>
+    <item name="android:layout_marginBottom">16dp</item>
+
+    <item name="cardBackgroundColor">@android:color/white</item>
+    <item name="cardCornerRadius">@dimen/dp_6</item>
+    <item name="cardElevation">@dimen/dp_4</item>
+</style>
+    <style name="Card_bg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+
+        <item name="cardBackgroundColor">@android:color/white</item>
+        <item name="cardCornerRadius">@dimen/dp_4</item>
+        <item name="cardElevation">@dimen/dp_2</item>
+    </style>
+
+
+    <style name="CardPhoto">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:tint">@color/photo_tint</item>
+
+    <item name="android:scaleType">centerCrop</item>
+    <item name="riv_corner_radius">6dp</item>
+</style>
+
+    <style name="DetailStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/color_white</item>
+    </style>
+
+    <color name="photo_tint">#7F101010</color>
+
+    <style name="SwipeBackLayout">
+        <item name="edge_size">0dp</item>
+    </style>
+
+    <!-- App Theme Light -->
+    <style name="BaseAppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorPrimaryDark">#48B8C7</item>
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+    </style>
+
+
+    <style name="AppThemeLight" parent="BaseAppThemeLight">
+    </style>
+
+    <style name="Translucent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#48B8C7</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
+
+    <style name="TextLabel" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorControlActivated">#FFCC00</item>
+    </style>
+
+    <!--控制头部据appbar的样式-->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <!--用于控制toolbar溢出菜单的样式-->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+</resources>
